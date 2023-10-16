@@ -1,24 +1,22 @@
-.form-select{
-    width: 25% !important;
-    height: 35px !important;
-    
-       
+.form-select {
+  width: 25% !important;
+  height: 35px !important;
 }
-.btn{
-    width: 100px !important;
-    margin-right: 40px;
+.btn {
+  width: 100px !important;
+  margin-right: 40px;
 }
-.row{
-    /* display: flex !important;
+.row {
+  /* display: flex !important;
     justify-content: space-around !important;
     align-items: center !important; */
 }
-.card{
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    width: 18rem!important;
-    height: 25rem !important;
-margin: 10px;
-    position: cover !important;
+.card {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 18rem !important;
+  height: 25rem !important;
+  margin: 10px;
+  position: cover !important;
 }
