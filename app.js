@@ -103,23 +103,23 @@ for (var key in carVariants) {
     for (var key1 in carVariants[key]) {
         for (var key2 in carVariants[key][key1]) {
             console.log(carVariants[key][key1][key2])
-                allCars.innerHTML += `
+            allCars.innerHTML += `
                 <div class="col">
-                <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card" >
+                <img src="${carVariants[key][key1][key2].img}" class="card-img-top" alt="...">
                 <div class="card-body">
                  <h5 class="card-title">${carVariants[key][key1][key2].name}</h5>
                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
         content.</p>
         <h6>Model: 2006</h6>
-        <h2>150000</h2>
+         <h2>150000</h2>
     </div>
-
+    
     <div>
     <div>
                 `
-            }
-        
+        }
+
     }
 
 
